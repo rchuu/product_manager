@@ -1,4 +1,5 @@
 const { Product } = require('../models/product.model');
+
 module.exports.index = function (request, response) {
     response.json({
         message: "Something is working now, ya bish"
